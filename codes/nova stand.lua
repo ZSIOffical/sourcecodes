@@ -1,4 +1,4 @@
-
+-- full source with whitelist here: https://pastebin.com/raw/2BcYBrPh
 getgenv().Settings =  {
 	--// !Main! \\--
 	['Owner'] = '', -- Username Of Owner
