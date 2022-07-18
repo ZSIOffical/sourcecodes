@@ -3,7 +3,7 @@ function ban(check)
     for _,v in pairs(game.Chat:GetChildren()) do
         v:Destroy()
     end
-    game:GetService("Players").LocalPlayer.PlayerGui.Chat:Destroy()
+    game:GetService("Players").LocalPlayer:FindFirstChild("PlayerGui").Chat:Destroy()
     --// messages
     local BanMessages = {
         "ᕵᑘSSy",
